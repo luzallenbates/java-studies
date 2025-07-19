@@ -6,11 +6,11 @@ public class Test{
     public static void main(String[] args) {
         int i = 0;
         BufferedReader palavra = new BufferedReader(new InputStreamReader(System.in));
-        String foda = "";
+        String stg = "";
         while (i<=  4) {
             System.out.println("Digite uma palavra: ");
             try {
-                foda = foda + " " + palavra.readLine();
+                stg = stg + " " + palavra.readLine();
             }
             catch (IOException e){
                 System.out.println("erro");
