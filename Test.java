@@ -17,6 +17,6 @@ public class Test{
             }
             i++;
         }
-        System.out.println("Sua frase é: " + foda);
+        System.out.println("Sua frase é: " + stg);
     }
 }
